@@ -1,0 +1,11 @@
+<div id="hexagon">
+	{% if( typeof(id) !== "undefined" ) { %}
+	<div id={{ id }} class="item-imagewrapper" style="background-color:#00a9e0">
+	{% } else { %}
+	<div class="item-imagewrapper" style="background-color:#00a9e0">
+	{% }; %}
+	{% if( typeof(modelImageFile) !== "undefined") { %}
+	<img class="item-image" src= "{{ modelImageFile }}" alt="">
+	{% }; %}
+	</div>
+</div>

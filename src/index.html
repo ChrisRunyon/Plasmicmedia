@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <base href="/" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>P L A S M I C M E D I A</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
+        <link rel="stylesheet" type="text/css" href="css/app.css"/>
+        <link rel="stylesheet" type="text/css" href="css/modules/containers/quadContainer.css"/>
+        <script src="config/requirejs.config.js"></script>
+        <script src="js/libraries/require.js"></script>
+        <script src="js/libraries/modernizr.js"></script>
+        <script src="js/framework/utils/helpers.js"></script>
+    </head>
+    <body>
+        <div id="content" class="content"></div>
+        <script>
+        window.require = require;
+        requireConfig({basePath: 'js'});
+        require(['require','jquery','backbone','underscore','handlebars','domready','three','ddsloader','mtlloader','background','fastclick','foundation.core', 'foundation.abide','foundation.topbar','foundation.reveal', 'foundation.alert','default/index'],
+        function (require,$,Backbone,_,Handlebars,DomReady,Three,DDSLoader,MTLLoader,Background,Fastclick,Foundation,FoundationAbide,FoundationTopbar,FoundationReveal,FoundationAlert,APP) {
+            window.$ = $;
+            window.Backbone = Backbone;
+            window._ = _;
+            window.Handlebars = Handlebars;
+            $(window).ready(function() {
+                APP.launch();
+            });
+        });
+        </script>
+        <!--script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-72401909-2', 'auto');
+        ga('send', 'pageview');
+        </script-->
+    </body>
+</html>

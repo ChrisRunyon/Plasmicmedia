@@ -1,0 +1,31 @@
+<style>
+.itemContainer {
+    padding: 5px 10px 5px 60px;
+    height: 36px;
+    line-height: 36px;
+    list-style: none;
+    background-color: #999999;
+}
+
+#secondModal {
+    list-style: none;
+}
+
+.group .itemContainer {
+  	background: url("../../image/folder.png") 20px center no-repeat;
+}
+</style>
+
+<li id="listButton" class="itemContainer">
+    <span class="attribute"> <img src={{ modelImageFile }} width="150" height="150"/> </span>
+    <!--span class="attribute"> {{ modelId }} </span-->
+    <span class="attribute"> {{ modelDescription }} </span><br/>
+	<span class="attribute"> {{ modelName }} </span>
+	
+	
+</li>
+<div id="secondModal" class="reveal-modal" data-reveal aria-labelledby="secondModalTitle" aria-hidden="true" role="dialog">
+    <!--div class="thank-you last-call panel no-margin-bottom">
+    </div-->
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>

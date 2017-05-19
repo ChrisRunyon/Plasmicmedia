@@ -1,0 +1,86 @@
+<style>
+    input.date {
+        width: 90px;
+    } 
+    input.time {
+        width: 90px;
+    }
+    .to {
+        width: 90px !important;
+        text-align: center;
+    }
+</style>
+
+<div class="row">
+    <div class="large-12 columns">
+        <ul class="small-block-grid-1 large-block-grid-1">
+            <li></li>
+        </ul>
+    </div>
+    <div class="large-12 columns">
+        <ul class="small-block-grid-1 large-block-grid-1">
+            <li>New Event</li>
+        </ul>
+    </div>
+    <div class="large-6 columns">
+        <div class="panel">
+          <img id="image-placeholder" height="500">
+        </div>
+    </diV>
+    <div class="large-6 columns">
+
+        <div class="row content text-center">
+           
+             <div class="large-12 columns">
+                <ul class="small-block-grid-1 large-block-grid-5">
+                    <li>Start Date</li>
+                    <li>Start Time</li>
+                    <li></li>
+                    <li>End Time</li>
+                    <li>End Date</li>
+                </ul>
+            </div>
+            <div class="large-12 columns">
+                <ul id="date-time-input" class="small-block-grid-1 large-block-grid-5">
+                    <li><input id="startDate" class="date start" type="text"></li>
+                    <li><input id="startTime" class="time start ui-timepicker-input" type="text" autocomplete="off"></li>
+                    <li class="to">to</li>
+                    <li><input id="endTime" class="time end ui-timepicker-input" type="text" autocomplete="off"></li>
+                    <li><input id="endDate" class="date end" type="text"></li>
+                </ul>
+            </div>
+
+            <form action="http://rest.com/event/create" class="u_r" id="u_r_1" method="post" onsubmit="return false;">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <input type="text" name="input-title" class="input-title" id="input-title" placeholder="Title">
+                    </div>
+                    <div class="large-12 columns">
+                        <textarea style="height:158px" name="input-description" class="input-description" id="input-description" rows='7' placeholder='Description within 500 characters'></textarea>
+                    </div>
+                    <input type="hidden" name="title" class="title" id="title">
+                    <input type="hidden" name="description" class="description" id="description">
+                    <input type="hidden" name="link" class="link" id="link">
+                    <input type="hidden" name="imageFile" class="imageFile" id="image-file">
+                    <input type="hidden" name="createdBy" class="createdBy" id="created-by">
+                    <input type="hidden" name="startDate" class="startDate" id="start-date">
+                    <input type="hidden" name="startTime" class="startTime" id="start-time">
+                    <input type="hidden" name="endDate" class="endDate" id="end-date">
+                    <input type="hidden" name="endTime" class="endTime" id="end-time">
+                </div>
+            </form>
+            <form id="u_i_1" class="u_i" action="http://rest.com/uploader/create" method="post" enctype="multipart/form-data" onsubmit="return false;">
+                <div class="row right">
+                    <input type="hidden" name="Content-Type" value="image/jpeg">
+                    <div class="large-4 medium-4 columns right"> 
+                        <input class="medium button" type="submit" value="Upload" id="enter">
+                    </div>
+                    <div class="large-4 medium-4 columns"> 
+                        <input class="small button" name="uploaded" type="file" id="uploader">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

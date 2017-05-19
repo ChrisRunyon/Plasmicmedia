@@ -1,0 +1,85 @@
+{
+    "result": [
+    	{
+            "modelId": "0",
+    		"modelFile":  "./assets/AidenPierce1451861391576/Aiden_Pierce.pls",
+    		"modelAsset": "./assets/AidenPierce1451861391576/Aiden_Pierce.mda",
+    		"modelPageLink": null,
+            "modelName": "Aiden Pierce",
+            "modelDescription": "Watch Dogs (Warning file size can be quite large)",
+            "modelImageFile": "images/aiden.png"
+        },
+        {
+            "modelId": "1",
+    		"modelFile": "./assets/Astronaut1451868850741/Astronaut.pls",
+    		"modelAsset": "./assets/Astronaut1451868850741/Astronaut.mda",
+    		"modelPageLink": null,
+            "modelName": "Astronaut",
+            "modelDescription": "Random model (Warning file size can be quite large)",
+            "modelImageFile": "images/astronaut.png"
+        },
+        {
+            "modelId": "2",
+    		"modelFile": "./assets/Batman1451870681793/Batman.pls",
+    		"modelAsset": "./assets/Batman1451870681793/Batman.mda",
+    		"modelPageLink": null,
+            "modelName": "Batman",
+            "modelDescription": "The Dark Knight (Warning file size can be quite large)",
+            "modelImageFile": "images/batman.png"
+        },
+        {
+            "modelId": "3",
+    		"modelFile": "./assets/Deadpool1451874631803/deadpool.pls",
+    		"modelAsset": "./assets/Deadpool1451874631803/deadpool.mda",
+    		"modelPageLink": null,
+            "modelName": "Deadpool",
+            "modelDescription": "Deadpool (Warning file size can be quite large)",
+            "modelImageFile": "images/deadpool.png"
+        },
+        {
+            "modelId": "4",
+    		"modelFile": "./assets/Spiderman1451586595404/Spiderman.pls",
+    		"modelAsset": "./assets/Spiderman1451586595404/Spiderman.mda",
+    		"modelPageLink": null,
+            "modelName": "Spiderman (Warning file size can be quite large)",
+            "modelDescription": "",
+            "modelImageFile": "images/spiderman.png"
+        },
+        {
+            "modelId": "5",
+    		"modelFile": "./assets/MarsAlien1451862532229/mars_alien.pls",
+    		"modelAsset": "./assets/MarsAlien1451862532229/mars_alien.mda",
+    		"modelPageLink": null,
+            "modelName": "Mars Alien",
+            "modelDescription": "Mars Alien (Warning file size can be quite large)",
+            "modelImageFile": "images/alien.png"
+        },
+        {
+            "modelId": "6",
+    		"modelFile": "./assets/CaptainAmerica1451873039231/Captain_America.pls",
+    		"modelAsset": "./assets/CaptainAmerica1451873039231/Captain_America.mda",
+    		"modelPageLink": null,
+            "modelName": "Captain America",
+            "modelDescription": "Captain America (Warning file size can be quite large)",
+            "modelImageFile": "images/captamerica.png"
+        },
+        {
+            "modelId": "7",
+    		"modelFile": "./assets/Cyborg1451873993997/Cyborg.pls",
+    		"modelAsset": "./assets/Cyborg1451873993997/Cyborg.mda",
+    		"modelPageLink": null,
+            "modelName": "Cyborg",
+            "modelDescription": "Cyborg (Warning file size can be quite large)",
+            "modelImageFile": "images/cyborg.png"
+        },
+        {
+            "modelId": "8",
+    		"modelFile": "./assets/Bane1451870291756/Bane_3.pls",
+    		"modelAsset": "./assets/Bane1451870291756/Bane_3.mda",
+    		"modelPageLink": null,
+            "modelName": "Bane",
+            "modelDescription": "Bane (Warning file size can be quite large)",
+            "modelImageFile": "images/bane.png"
+        }
+    ]
+}

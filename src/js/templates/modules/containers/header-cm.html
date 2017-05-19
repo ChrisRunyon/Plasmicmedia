@@ -1,0 +1,142 @@
+<style>
+.headerwrapper {
+height: 100px;
+}
+.wrapper {
+height: 100px;
+width: 100%;
+background-color: #fff;
+}
+.top-bar .name {
+margin: 12px 0 0;
+}
+/* Styles for signup panels */
+.auth-plain {
+padding-right: 0px;
+padding-left: 0px;
+padding-top: 0px;
+}
+.left-solid {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.signup-panel {
+border-radius: 5px;
+padding: 15px;
+margin-top: 30px;
+margin-bottom: 30px;
+background: #fff;
+}
+.signup-panel a{
+color: #fff;
+}
+.signup-panel i {
+font-size: 30px;
+line-height: 50px;
+color: #999;
+}
+.signup-panel form input, .signup-panel form span {
+height: 50px;
+}
+.signup-panel .welcome {
+font-size: 26px;
+text-align: center;
+margin-left: 0;
+}
+.signup-panel p {
+font-size: 13px;
+font-weight: 200;
+text-align: center;
+}
+.signup-panel .button {
+margin-left: 35%;
+}
+.newusers {
+background: #fff;
+}
+.inline-list .logo{
+    list-style: none;
+    min-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    max-width: 35px;
+}
+.inline-list .company-name {
+    line-height: 40px;
+}
+
+.company-name a {
+    color: #000;
+}
+
+#fallback_logo {
+    list-style: none;
+    min-width: 35px;
+    min-height: 40px;
+    max-height: 35px;
+    max-width: 40px;
+}
+.right li {
+    background-color: #fff;
+}
+</style>
+<div id="myModal" class="reveal-modal remove-whitespace" data-reveal>
+    <div class="row">
+        <div class="large-6 columns auth-plain">
+            <div class="signup-panel left-solid">
+                <p class="welcome">Registered Users</p>
+                <form>
+                    <div class="row collapse">
+                        <div class="small-2  columns">
+                            <span class="prefix"><i class="fi-torso-female"></i></span>
+                        </div>
+                        <div class="small-10  columns">
+                            <input type="text" placeholder="username">
+                        </div>
+                    </div>
+                    <div class="row collapse">
+                        <div class="small-2 columns ">
+                            <span class="prefix"><i class="fi-lock"></i></span>
+                        </div>
+                        <div class="small-10 columns ">
+                            <input type="text" placeholder="password">
+                        </div>
+                    </div>
+                </form>
+                <a href="#" class="button ">Log In </a>
+            </div>
+        </div>
+        <div class="large-6 columns auth-plain">
+            <div class="signup-panel newusers">
+                <p class="welcome"> New User?</p>
+                <p>By creating an account with us, you will be able to move through the checkout process faster, view and track your orders, and more.</p><br>
+                <a href="#" class="button ">Sign Up</a></br>
+            </div>
+        </div>
+    </div>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+<div class="fixed wrapper">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="inline-list">
+            <li class="logo">
+                <!--object data="images/plasmic_logo.svg" type="image/svg+xml"-->
+                    <img id="fallback_logo" src="images/gear-export.png"/>
+                <!--/object-->
+            </li>
+            <li class="company-name">
+                <a href="#">CUSTOM MARKETING SYSTEM</a>
+            </li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="left">
+            </ul>
+            <ul class="right">
+                <li>TEST</li>
+                <li>TEST 2</li>
+            </ul>
+        </section>
+    </nav>
+</div>

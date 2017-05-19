@@ -1,0 +1,9 @@
+{% if( typeof(id) !== "undefined" ) { %}
+<div id={{ id }} class="graph-item-wrapper" style="background-color:#00a9e0">
+{% } else { %}
+<div class="graph-item-wrapper" style="background-color:#00a9e0">
+{% }; %}
+{% if( typeof(imageFile) !== "undefined") { %}
+<img class="graph-item-image" src= "http://rest.com{{ imageFile }}" alt="">
+{% }; %}
+</div>
